@@ -1,0 +1,29 @@
+{
+  "name": "appium-typescript-mobile-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wdioIos": "wdio run config/ios-wdio.conf.ts",
+    "wdioAndroid": "wdio run config/android-wdio.conf.ts"
+  },
+  "author": "Nigel Bautista",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^5.1.4",
+    "@wdio/appium-service": "^8.35.1",
+    "@wdio/cli": "^8.35.1",
+    "@wdio/jasmine-framework": "^8.35.1",
+    "@wdio/local-runner": "^8.35.1",
+    "@wdio/mocha-framework": "^8.35.0",
+    "@wdio/spec-reporter": "^8.32.4",
+    "@wdio/types": "^8.32.4",
+    "appium-xcuitest-driver": "^7.8.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.3"
+  },
+  "dependencies": {
+    "webdriverio": "^8.35.1"
+  }
+}
